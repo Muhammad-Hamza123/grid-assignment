@@ -1,0 +1,37 @@
+.main{
+display: grid;
+color: white;
+text-align: center;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 40px 450px 60px 60px 30px;
+
+}
+.class1{ background-color: black;}
+.class2{ background-color: rgb(161, 22, 22);}
+.class3{ background-color: rgb(35, 37, 173);}
+.class4{ background-color: rgb(20, 8, 63);}
+.class5{ background-color: rgb(57, 184, 216);}
+.class6{ background-color: rgb(127, 233, 40);}
+.class7{ background-color: rgb(81, 99, 18);}
+.class4sub{ background-color: rgb(253, 252, 253);}
+#two{ grid-column-start: 2;
+    grid-column-end: 5; }
+#three{ 
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#four{ 
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#foursub{ 
+    grid-row-start:3;
+    grid-row-end:5;
+}
+#seven{ grid-column-start: 1;
+    grid-column-end: 5; }
